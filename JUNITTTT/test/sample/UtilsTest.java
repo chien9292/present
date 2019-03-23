@@ -46,7 +46,7 @@ public class UtilsTest {
     /**
      * Test of concatWords method, of class Utils.
      */
-    @Test
+//    @Test
     public void testConcatWords() {
         System.out.println("concatWords");
         String[] words = null;
@@ -85,7 +85,7 @@ public class UtilsTest {
         }
     }
 
-    @Test
+//    @Test
     public void testExpectedException() {
         System.out.println("* UtilsJUnit3Test: test method 3 - testExpectedException()");
         try {
@@ -114,7 +114,7 @@ public class UtilsTest {
     /**
      * Test of normalizeWord method, of class Utils.
      */
-    @Test
+//    @Test
     public void testNormalizeWord() {
         System.out.println("normalizeWord");
         String word = "";
