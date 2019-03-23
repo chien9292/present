@@ -59,6 +59,7 @@ public class VectorsTest {
     public void testScalarMultiplication() {
         System.out.println("* VectorsTest: testScalarMultiplication()");
         assertEquals(0, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
+        assertEquals(1, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
         assertEquals(39, Vectors.scalarMultiplication(new int[]{3, 4}, new int[]{5, 6}));
         assertEquals(-39, Vectors.scalarMultiplication(new int[]{-3, 4}, new int[]{5, -6}));
         assertEquals(0, Vectors.scalarMultiplication(new int[]{5, 9}, new int[]{-9, 5}));
