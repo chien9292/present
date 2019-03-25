@@ -59,7 +59,7 @@ public class VectorsTest {
     public void testScalarMultiplication() {
 //        int expected = 0;
         System.out.println("* VectorsTest: testScalarMultiplication()");
-        assertEquals(0, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
+        assertEquals(1, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
 //        assertEquals(IllegalArgumentException.class, Vectors.scalarMultiplication(new int[]{0,0, 0}, new int[]{0, 0}));
 //        assertEquals(Exception.class, this);
         assertEquals(0, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
