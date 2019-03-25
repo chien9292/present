@@ -55,12 +55,12 @@ public class VectorsTest {
     /**
      * Test of scalarMultiplication method, of class Vectors.
      */
-    @Test(expected = Exception.class)
+    @Test(expected = IllegalArgumentException.class)
     public void testScalarMultiplication() {
 //        int expected = 0;
         System.out.println("* VectorsTest: testScalarMultiplication()");
-        assertEquals(2, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
-        assertEquals(Exception.class, Vectors.scalarMultiplication(new int[]{0,0, 0}, new int[]{0, 0}));
+        assertEquals(0, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
+        assertEquals(IllegalArgumentException.class, Vectors.scalarMultiplication(new int[]{0,0, 0}, new int[]{0, 0}));
 //        assertEquals(Exception.class, this);
         assertEquals(0, Vectors.scalarMultiplication(new int[]{0, 0}, new int[]{0, 0}));
         assertEquals(39, Vectors.scalarMultiplication(new int[]{3, 4}, new int[]{5, 6}));
