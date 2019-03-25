@@ -55,7 +55,7 @@ public class VectorsTest {
     /**
      * Test of scalarMultiplication method, of class Vectors.
      */
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void testScalarMultiplication() {
 //        int expected = 0;
         System.out.println("* VectorsTest: testScalarMultiplication()");
